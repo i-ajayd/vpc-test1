@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: Vpc Test App 1
 on: [push]
 jobs:
   build:
