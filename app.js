@@ -12,7 +12,7 @@ app.get("/health", (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log("App listening on port 3000!, retry");
+  console.log("App listening on port 3000!, retry this is with internal alb");
 });
 
 app.get("/access_alb",async (req, res) => {
