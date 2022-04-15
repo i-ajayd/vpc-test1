@@ -16,7 +16,10 @@ app.listen(3000, () => {
 });
 
 app.get("/access_alb",async (req, res) => {
+  console.log('i am here')
   const {data}=await axios.get("http://internal-alb-vpc-test2-v3-948757348.ap-south-1.elb.amazonaws.com")
+  console.log('i am here2')
+  console.log(data)
   res.send(data);
 });
 
