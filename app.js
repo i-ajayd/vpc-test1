@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const axios = require("axios");
 
-app.get("/", (req, res) => res.send("Hello this is application (vpc-test1) created for vpv testing, deployed on faragate"));
+app.get("/", (req, res) => res.send("Hello this is application (vpc-test1) created for vpc testing, deployed on faragate, to connect with internl nlb"));
 
 
 
