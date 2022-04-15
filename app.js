@@ -16,7 +16,7 @@ app.listen(3000, () => {
 });
 
 app.get("/access_alb",async (req, res) => {
-  const {data}=await axios.get("http://internal-alb-vpc-test2-v3-948757348.ap-south-1.elb.amazonaws.com")
+  const {data}=await axios.get("http://nlb-vpc-test2-5fa65a1afc079eb1.elb.ap-south-1.amazonaws.com")
   res.send(data);
 });
 
